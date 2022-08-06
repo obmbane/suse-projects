@@ -1,3 +1,6 @@
 [submodule "helm-charts/helm-charts"]
 	path = helm-charts/helm-charts
 	url = https://github.com/hashicorp/vault-helm.git
+[submodule "helm-charts/terraform-helm"]
+	path = helm-charts/terraform-helm
+	url = https://github.com/hashicorp/terraform-helm.git
