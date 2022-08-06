@@ -1,0 +1,22 @@
+defaultNamespace: kubeview
+
+helm:
+  chart: kubeview
+  repo: https://benc-uk.github.io/kubeview/charts
+  version: 0.1.20
+  releaseName: kubeview
+  values:
+    ingress:
+      enabled: true
+      hosts:
+        - host: nip.io
+          paths:
+            - /
+diff:
+  comparePatches:
+  - apiVersion: extensions/v1beta1
+    kind: Ingress
+    name: kubeview
+    namespace: kubeview
+    operations:
+    - {"op":"remove", "path":"/spec/rules"}
