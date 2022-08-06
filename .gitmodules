@@ -7,3 +7,6 @@
 [submodule "helm-charts/new-terraform-helm"]
 	path = helm-charts/new-terraform-helm
 	url = https://github.com/hashicorp/terraform-helm.git
+[submodule "helm-charts/consule-helm"]
+	path = helm-charts/consule-helm
+	url = https://github.com/hashicorp/consul-helm.git
