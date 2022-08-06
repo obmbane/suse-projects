@@ -1,0 +1,3 @@
+[submodule "helm-charts/helm-charts"]
+	path = helm-charts/helm-charts
+	url = https://github.com/hashicorp/vault-helm.git
